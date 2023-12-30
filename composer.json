@@ -1,0 +1,32 @@
+{
+    "name": "starmoozie/laravel-access",
+    "description": "This packages is handle user role based on menu permission",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Starmoozie\\LaravelAccess\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "starmoozie",
+            "email": "starmoozie@starmoozie.com",
+            "role": "Creator & Maintainer"
+        }
+    ],
+    "keywords": [
+        "starmoozie",
+        "laravel",
+        "laravel menu permission",
+        "laravel dynamic permission",
+        "laravel permission",
+        "laravel generator"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "laravel/passport": "^11.0"
+    }
+}

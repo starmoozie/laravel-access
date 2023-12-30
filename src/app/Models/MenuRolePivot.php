@@ -1,0 +1,17 @@
+<?php
+
+namespace Starmoozie\LaravelAccess\app\Models;
+
+use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
+
+class MenuRolePivot extends Pivot
+{
+    use HasUuids;
+
+    protected $fillable = [
+        "id",
+        "role_id",
+        "menu_id",
+    ];
+}
